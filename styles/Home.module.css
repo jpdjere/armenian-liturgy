@@ -34,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #661099;
   text-decoration: none;
 }
 
@@ -76,6 +76,7 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+  flex-direction: column;
 }
 
 .card {
@@ -88,6 +89,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  min-height: 15rem;
 }
 
 .card:hover,
