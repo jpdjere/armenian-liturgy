@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import YouTube, { Options } from 'react-youtube';
 import { useState } from 'react';
-import { Lyrics } from './Lyrics';
+import { Lyrics } from '../components/Lyrics';
 
 const Home: NextPage = () => {
   const [time, setTime] = useState(0);
