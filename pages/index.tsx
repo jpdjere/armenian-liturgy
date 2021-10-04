@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       end: 2941
     },
   } as Options;
-  const onPlay = (event) => {
+  const onPlay = (event: any) => {
     // access to player in all event handlers via event.target
     setInterval(() => {
       setTime(event.target.getCurrentTime());
