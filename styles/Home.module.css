@@ -89,7 +89,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
-  min-height: 15rem;
+  min-height: 17rem;
 }
 
 .card:hover,
@@ -109,20 +109,20 @@
   margin-left: 0.5rem;
 }
 
-.video {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  min-height: 15rem;
-}
+
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-
+  .video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+  }
   .card {
     width: 80%;
   }
