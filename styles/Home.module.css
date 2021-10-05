@@ -48,6 +48,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-top: 2rem;
 }
 
 .title,
@@ -75,7 +76,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 2rem;
   flex-direction: column;
 }
 
@@ -125,5 +126,9 @@
   }
   .card {
     width: 80%;
+  }
+
+  .title {
+    font-size: 3.5rem;
   }
 }
