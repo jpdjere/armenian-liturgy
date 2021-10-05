@@ -38,8 +38,7 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.grid}>
-          <YouTube videoId="I_sBYnCJW9s" opts={opts} onPlay={onPlay} />
-          <div id="player"></div>
+          <YouTube videoId="I_sBYnCJW9s" opts={opts} onPlay={onPlay} className={styles.video}/>
           <div
             className={styles.card}
           >
